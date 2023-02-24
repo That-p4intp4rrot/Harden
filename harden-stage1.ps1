@@ -1,5 +1,5 @@
 $github = "Windows-Optimize-Harden-Debloat"
-$Url = "https://github.com/That-p4intp4rrot/Harden/$github/archive/master.zip"
+$Url = "https://github.com/That-p4intp4rrot/Harden/archive/refs/heads/master.zip"
 $scriptname = "sos-optimize-windows.ps1"
 $ZipFile = "C:\temp\" + $(Split-Path -Path $Url -Leaf)
 $Destination= "C:\temp\"
